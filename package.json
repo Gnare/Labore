@@ -1,10 +1,8 @@
 
 {
-
   "postinstall": "ng build --aot -prod",
 "preinstall": "npm install && npm install  @angular/compiler-cli --save -dev",
 "start": "node server.js",
-
   "name": "employee-management",
   "version": "0.0.0",
   "scripts": {
